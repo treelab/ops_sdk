@@ -5,7 +5,7 @@ TREELAB OPS SDK
 import sys
 from distutils.core import setup
 
-version = '0.0.1'
+version = '0.0.8'
 
 if sys.version_info < (2, 7) or (3, 0) <= sys.version_info < (3, 9):
     print('Finit requires at least Python 2.7 or 3.9 to run.')
@@ -28,7 +28,7 @@ def get_install_requires():
 
 
 setup(
-    name='treelabOpssdk',
+    name='opssdk',
     version=version,
     description="treelab运维SDK",
     packages=['opssdk', 'opssdk.logs', 'opssdk.operate', 'opssdk.install', 'opssdk.get_info', 'opssdk.utils', 'websdk', 'websdk.apis', 'websdk.cloud', 'websdk.utils'],
