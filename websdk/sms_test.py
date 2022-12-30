@@ -20,7 +20,7 @@ REGION = "cn-hangzhou"
 PRODUCT_NAME = "Dysmsapi"
 DOMAIN = "dysmsapi.aliyuncs.com"
 
-acs_client = AcsClient('LTAI4Fe85gjtzMJfvCXrbr6j', 'M1U2QLUhnE6KiQGpK16n81ZlzA8uQr', REGION)
+acs_client = AcsClient('*****', '*****', REGION)
 region_provider.add_endpoint(PRODUCT_NAME, REGION, DOMAIN)
 
 
